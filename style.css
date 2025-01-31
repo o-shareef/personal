@@ -1,0 +1,40 @@
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none; /* rmeove bullet points from listings */
+  display: flex; /* make the list horizontal */
+  justify-content: center; /* center the list */
+}
+nav li {
+  margin: 0 20px; /* add space between list items */
+}
+nav a {
+  text-decoration: none; /* remove underline from links */
+  color: #fff; /*make text white */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  min-height: 100vh; /* make sure the body is at least the height of the viewport */
+  display: flex; 
+  flex-direction: column;
+}
+img {
+  max-width: 100%;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  
+  margin-top: auto;
+}

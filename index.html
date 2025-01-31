@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <style>
+        .container {
+          max-width: 960px;
+          margin: 0 auto;
+          padding: 40px;
+        }
+        .project {
+          margin-bottom: 20px;
+          border: 2px #ccc solid;
+          padding: 20px;
+        }
+        .about-me {
+          border: 2px #ccc solid;
+          padding: 20px;
+        }
+        .pfp {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 20px;
+          justify-content: center;
+
+          /* Center image */
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      </style>
+    </header>
+
+    <section class="about">
+      <div class="container">
+        <img class="pfp" src="./images/pfp.jpg" alt="Profile Picture" />
+        <h1>Omran Shareef</h1>
+        <p style="font-family: 'Courier New', Courier, monospace; color: brown">
+          Computer Engineering Student
+        </p>
+        <p class="about-me">My name is Omran Shareef I am a 3rd year Computer
+            Engineering student at Iowa State University. I have intrests in Full-stack
+            software, as well as Embedded Systems. Summer of 2024 I interned for the IT department
+            at ELectrical Power Products in Des Moines. Summer of 2025 I will be interning as a
+            Software Engineer at Tractor Zoom in West Des Moines. 
+        </p>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+
+        <div class="project-1">
+          <img src="./images/android.png" alt="Project 1" />
+          <h3>FindFiesta (Android app) | Java, mySQL, Spring Boot, Docker, MariaDB </h3>
+          <p>
+            <ul>
+                <li>Developed and maintained back-end components for an Android application using Spring Boot and Java in a
+                    semester-long software engineering project within a group of 4, adhering to Scrum practices and weekly meetings</li>
+                <li>Implemented comprehensive account management features, including multi-factor authentication and the ability to
+                    create, delete, and edit user accounts, enhancing security and user experienc</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>You can reach me at shareef@iastate.edu</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Omran Shareef</p>
+    </footer>
+  </body>
+</html>
